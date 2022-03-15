@@ -1,0 +1,72 @@
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 35%;
+    background-color: rgb(69, 129, 129);
+    justify-items: center;
+    padding: 2rem;
+    margin: auto;
+}
+
+.heading{
+    text-align: center;
+}
+
+label{
+    font-weight: bold;
+    text-align: center;
+    margin: 5px;
+}
+
+#bill-amount{
+    padding: 0.5rem
+}
+
+#cash-given{
+    padding: 00.5rem;
+    
+}
+.change-table, th, td{
+    border: 1px solid black;
+    
+}
+
+.change-table{
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+th, td{
+    text-align: center;
+    padding: 5px;
+    background-color: aliceblue;
+    height: 2rem;
+}
+
+th{
+   background-color: rgb(51, 142, 202);
+}
+
+.row{
+    background-color: rgb(51, 142, 202);
+
+}
+
+#check-btn{
+  margin: 1rem;
+  margin-right: 7rem;
+  margin-left: 7rem;
+  padding: 0.5rem;
+  align-items: center;
+  font-size: large;
+  font-weight: bold;
+}
+
+caption{
+    font-size: large;
+    font-weight: bold;
+    padding: 5px;
+}
